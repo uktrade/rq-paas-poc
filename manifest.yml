@@ -1,0 +1,7 @@
+---
+applications:
+  - buildpacks:
+      - https://github.com/cloudfoundry/python-buildpack.git#v1.7.55
+    stack: cflinuxfs3
+    timeout: 180
+    health-check-type: process
